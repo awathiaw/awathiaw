@@ -1,0 +1,113 @@
+/*@page {
+    size: A4;  Définit la taille de la page au format A4 
+    margin: 2cm;  Marge autour de la page 
+}*/
+/*@page{
+    inline-size: 21cm;  Largeur de la page 
+    block-size: 29.7cm; // Hauteur de la page (format A4) 
+    margin: 2cm;
+}*/
+body{
+    margin: 50px;
+    margin-top: 10px;
+    margin-left: 90px;
+    padding: 50px;
+    background: white;
+    height: 150vh;
+    justify-content: center;
+    align-items: center;
+}
+#bloc1{
+    background:#000000;
+    color:white;
+}
+#bloc2{
+    background: #f9f5f4;
+}
+#bloc{
+    display: flex;
+    width: 950px;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+#bloc1{
+    flex:2;
+}
+#bloc2{
+    flex:2.5;
+}
+.photo{
+    display:block;
+    border-radius: 100px;
+    margin:auto;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+ul:before{
+    content: "";
+    display:inline-block;
+    width : 2px;
+    background: #e9b296;
+    position: absolute;
+    left: 13px;
+    top: 5px;
+    height: calc(100% - 10px);
+}
+ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+ul li:before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ee9264;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    border-radius: 10px;
+}
+.progressf{
+    background-color: #ffffff;
+    height: 3px;
+    width: 0;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+}
+#progressf, #progressa, #progressw{
+    background: #ee9264;
+    height: 10px;
+    width: 70%;
+    border: 1px solid #ee9264;
+    border-radius: 10px;
+}
+#progressf::after, #progressa::after, #progressw::after{
+    content: '';
+    display: block;
+    background: white;
+    height: 100%;
+    border-radius: 10px;
+}
+#progressf:after{width: 97%;}
+#progressa:after{width: 70%;}
+#progressw:after{width: 90%;}
+h1{
+    font-size: 3em;
+    text-align: left;
+}
+#profession{
+    font-size: 0.4em;
+}
+html, body {
+    width: 210mm;
+    height: 297mm;
+}

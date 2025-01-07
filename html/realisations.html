@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes competences</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/realisations.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Acceuil</a>
+        <a href="apropos.html">À propos</a>
+        <a href="formations.html">Formations</a>
+        <a href="realisations.html">Realisations</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!--SECTION-->
+    <section>
+        <div>
+            <figcaption id="bloc1" class="bloc">
+                <a href="https://awathiaw.github.io/sitecrochetkwin221/" target="_blank">
+                    <img src="../images/sitecrochet.png" alt="sitecrochet"><br>
+                    Site de vente: artisanat crochet
+                </a>
+            </figcaption>
+            <figcaption id="bloc2" class="bloc">
+                <a href="../realisation/site-zozor/zozor.html" target="_blank">
+                    <img src="../images/sitezozor.png" alt="sitezozor"><br>
+                    Site de voyage de Zozor
+                </a>
+            </figcaption>
+        </div>
+        
+    </section>
+    
+    <!--BOUTON CONTINUER-->
+    <div id="button">
+        <button id="pagesuivante">CONTINUER</button> 
+    </div>
+    <br><br>
+    <script>
+        document.getElementById('pagesuivante').addEventListener('click', function() {
+        window.location.href = 'hobbies.html'; 
+        });
+    </script>
+    <script src="../js/scriptnav.js"></script>
+    <script src="../js/scriptnavactive.js"></script>
+</body>
+</html>

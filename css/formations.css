@@ -1,0 +1,91 @@
+body{
+    background: url('../images/fondbeige.jpg');
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+section h1{
+    font-size: 3em;
+    font-family: "Playwrite CU", cursive;
+    text-align: center;
+    margin: 5% auto;
+}
+#parcours{
+    display: flex;
+    font-family: "Julius sans one", sans-serif;
+}
+#parcourstext{
+    flex: 1;
+    text-align: right;
+    font-size: 1.em;
+    margin: 1.5% auto;
+    line-height: 1.5;
+}
+#puces{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: -1.8% auto;
+}
+#parcoursimg{
+    flex: 1.5;
+    text-align: left;
+}
+#parcoursimg img{
+    border-radius: 100%;
+    width: 30%;
+}
+
+#barreverticale{
+    height: 250px;
+    width: 10px;
+    background-color: black;
+    margin: -1% 49% ;
+}
+
+#certification{
+    display: flex;
+    font-family: "Julius sans one", sans-serif;
+}
+#certificationtext{
+    flex: 1;
+    text-align: left;
+    font-size: 1em;
+    margin: 1.5% auto;
+    line-height: 1.5;
+}
+#certificationimg{
+    flex: 1.39;
+    text-align: right;
+}
+#certificationimg img{
+    border-radius: 100%;
+    width: 30%;
+}
+#bouton{
+    text-align: center;
+    background-color: black;
+}
+#bouton h2{
+    font-family: "Julius sans one", sans-serif;
+    color: white;
+    font-size: 2em;
+    
+}
+button{
+    padding: 20px 40px;
+    font-family: "Julius sans one", sans-serif;
+    font-size: 1em;
+    border-radius: 50px;
+    padding: 20px 40px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+#button{
+    text-align:center;
+}
+button:hover{
+    color: #D6C5BB;
+}

@@ -1,0 +1,120 @@
+body{
+    background: url('../images/fondbeige.jpg');
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    font-family: "Julius sans one", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 30px;
+    font-size: 2em;
+}
+header p{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#formulaire{
+    margin: 10px;
+    padding: 20px;
+}
+#bloc{
+    display: flex;
+}
+#bloc1{
+    flex: 1;
+    text-align: left;
+}
+label{
+    font-family: "Julius sans one", sans-serif;
+    font-size: 2em;
+}
+
+input{
+    width: 80%;
+    height: 100px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+input::placeholder{
+    line-height: 50px;
+}
+
+textarea
+{
+    width: 80%;
+    height: 329px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    line-height: 70px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    resize: vertical;
+}
+span{
+    color: red;
+    font-size: 1em;
+    opacity: 0.5;
+}
+
+.btn{
+    text-align: center;
+}
+button{
+    width: 300px;
+    height: 100px;
+    font-family: "Julius sans one", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #495057;
+    color: white;
+    border: none;
+    border-radius: 300px;
+    cursor: pointer;
+}
+
+#resultat{
+    font-family: "Julius sans one", sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+#collab{
+    font-family: "Julius sans one", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+}
+
+footer{
+    background-color: black ;
+    font-family: "Julius sans one", sans-serif;
+    color: white;
+    text-align: center;
+}
+#coordonnees{
+    display: flex;
+}
+#contact, #suivre{
+    flex: 1; 
+   
+}
+img{
+    width: 50px;
+    height: auto;
+   
+}

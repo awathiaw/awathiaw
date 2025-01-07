@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/apropos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Acceuil</a>
+        <a href="apropos.html">À propos</a>
+        <a href="formations.html">Formations</a>
+        <a href="realisations.html">Realisations</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <img src="../images/apropos.jpg" id="image">
+        <div class="overlay-text">
+            <br>
+            <h1> CREATIVITE
+            </h1>
+            <p>
+                Depuis mon plus jeune âge, j'ai toujours aimé bidouiller par moi-même.
+                C'est ce besoin de comprendre comment les choses fonctionnent qui m'a poussée vers l'informatique.
+                Nous utilisons tellement d'applications de nos jours sans nous poser la question : comment sont-elles faites ?                Je me suis posée cette question.
+                Et après avoir trouvé la réponse, je me suis lancée le défi de créer moi aussi.
+                Mon esprit créatif et mon originalité, j'ose croire, peuvent apporter une valeur ajoutée à l'univers vaste et fascinant du développement web.
+            </p>
+            <p>
+                Mon objectif en tant que développeur est de concevoir des solutions qui allient esthétisme, performance et accessibilité. 
+                Je cherche à rendre le web plus intuitif et à créer des expériences utilisateur mémorables tout en garantissant des résultats alignés avec les attentes et l'identité de mes clients
+            </p>
+            <p id="spe">Vous cherchez quelqu'un de dynamique, à l'écoute et engagé, alors découvrons ensemble ce que nous pouvons créer.</p>
+            
+            <button id="pagesuivante">CONTINUER</button> 
+            <br><br>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('pagesuivante').addEventListener('click', function() {
+    window.location.href = 'formations.html'; 
+    });
+    </script>
+    <script src="../js/scriptnav.js"></script>
+    <script src="../js/scriptnavactive.js"></script>
+</body>
+</html>

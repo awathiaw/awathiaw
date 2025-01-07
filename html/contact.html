@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Acceuil</a>
+        <a href="apropos.html">À propos</a>
+        <a href="formations.html">Formations</a>
+        <a href="realisations.html">Realisations</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <h1>CONTACT</h1>
+        <br><br>
+        <p>N'hésitez pas à me contacter.</p>
+    </header>
+    
+    <form id="formulaire">
+        <div id="bloc">
+            <div id="bloc1">
+                <label for="prenometnom">
+                    Nom et prénom <span>*</span> 
+                </label><br><br>
+                <input type="text" id="prenometnom" placeholder="Nom et Prénom" required>
+        
+                <br><br><br>
+        
+                <label for="email">
+                    Email <span>*</span>
+                </label><br><br>
+                <input type="email" id="email" placeholder="Saisissez votre email *" required>
+            </div>
+
+           <div id="bloc1">
+            <label for="message">
+                Message <span>*</span>
+            </label><br><br>
+            <textarea id="message" name="message" placeholder="Saisissez votre message" required></textarea>
+    
+            <br><br><br>
+           </div>
+        </div>
+       <div class="btn">
+        <button type="submit" class="bloc">ENVOYER</button>
+       </div>
+    </form>
+    <h3 id="resultat"></h3>
+    <div id="collab">
+        Si cette immersion dans mon portfolio vous a convaincu de me confier votre projet, vous trouverez en bas de page toutes les plateformes sur lesquelles vous pourrez me contacter pour une future collaboration. <br><br>
+    </div>
+    <footer>
+        <div id="coordonnees">
+            <div id="contact">
+                <h2>Me contacter</h2>
+                <a href="https://www.google.com/maps?q=Thiès,Sénégal" target="_blank"><img src="../images/loc.jpg" alt="logo localisation"></a>&nbsp;&nbsp;
+                <a href="mailto:awathiaw0919@gmail.com" target="_blank"><img src="../images/mail.jpg" alt="logo email"></a>&nbsp;&nbsp;
+                <a href="https://wa.me/+221760290879" target="_blank"><img src="../images/whatsapp.jpg" alt="logo whatsapp"></a> <br><br>
+            </div>
+            <div id="suivre">
+                <h2>Me suivre</h2>
+                <a href="https://www.facebook.com/share/19YSmeKDcH/?mibextid=wwXIfr" target="_blank"><img src="../images/facebook.jpg" alt="logo facebook"></a>&nbsp;&nbsp;
+                <a href="https://x.com/missthw_?s=21" target="_blank"><img src="../images/x.jpg" alt="logo x(ex tweeter)"></a>&nbsp;&nbsp;
+                <a href="http://linkedin.com/in/awa-thiaw-a1b44b337" target="_blank"><img src="../images/linkedin.jpg" alt=""></a><br><br>
+            </div>
+        </div>
+        <p>&copy; 2025 Awa THIAW. Tous droits réservés.</p><br>
+    </footer>
+
+    <script src="../js/contact.js"></script>
+    <script src="../js/scriptnav.js"></script>
+    <script src="../js/scriptnavactive.js"></script>
+</body>
+</html>
